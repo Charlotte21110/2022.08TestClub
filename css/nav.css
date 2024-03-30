@@ -1,0 +1,284 @@
+.nav {
+    height: 46px;
+    background-color: #181818;
+}
+.nav_left {
+    position: relative;
+    float: left;
+    width: 1024px;
+    height: 46px;
+}
+.nav_right {
+    float: right;
+    width: 120px;
+    height: 46px;
+}
+.nav_right_icon {
+    position: relative;
+    float: left;
+    width: 40px;
+    padding-top: 15px;
+    cursor: pointer;    
+}
+/* .nav_hidden {
+    overflow: hidden;
+} */
+.search {
+    height: 20px;
+    width: 20px;
+    margin: auto auto;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 99.78px -39.59px;
+}
+.portrait {
+    height: 20px;
+    width: 20px;
+    margin: auto auto;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 99.78px -19.59px;
+}
+.menu {
+    height: 20px;
+    width: 20px;
+    margin: auto auto;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 99.78px 0.41px;
+}
+.nav_left_box {
+    float: left;
+    /* margin-right: 10px; */
+    line-height: 46px;
+}
+.nav_left_box2 {
+    float: left;
+    margin-left: 20px;
+    line-height: 46px;
+}
+.nav_left_box_sec {
+    /* width: 50px; */
+    line-height: 46px;
+}
+.nav_tit {
+    margin-right: 24px;
+}
+.nav_tit a {
+    display: inline-block;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.home {
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    margin: auto auto;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 45.78px -101.59px;
+    vertical-align: middle;
+}
+.group {
+    display: inline-block;
+    height: 7px;
+    width: 13px;
+    margin-left: 5px;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 58.78px -0.59px;
+    vertical-align: middle;
+    transition: all 0.2s ease;
+}
+.nav_line {
+    display: inline;
+    /* background-color: aquamarine; */
+    height: 40px;
+    border-right: 1px solid #5c5c5c;
+}
+.aigc01 {
+    display: inline-block;
+    height: 20px;
+    width: 18px;
+    margin-left: 5px;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: -0.219px -100.59px;
+    vertical-align: middle;
+}
+.aigc02 {
+    display: inline-block;
+    height: 20px;
+    width: 36px;
+    margin-right: 22px;
+    background: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: -18.219px -101.59px;
+    vertical-align: middle;
+}
+.nav_hot {
+    position: absolute;
+    top: 3px;
+    left: 456px;
+    width: 28px;
+    height: 14px;
+    background-image: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: -40.219px -7.59px;
+}
+/* 导航颜色变化 */
+.nav_tit :hover {
+    color: #bf0614!important;
+}
+.nav_triangle:hover .group {
+    transform: rotate(180deg);
+    background-position: 44.78px -0.59px;
+}
+.nav_aigc:hover .aigc01 {
+    background-position: -0.219px -80.59px;
+}
+.searchIcon:hover .search {
+    background-position: 78.78px -39.59px;
+}
+.portraitIcon:hover .portrait {
+    background-position: 78.78px -19.59px;
+}
+.menuIcon:hover .menu {
+    background-position: 78.78px 0.41px;
+}
+.nav_son {
+    height: 41px;
+    background-color: #181818;
+    border-top: 1px solid #343434;
+}
+.nav_son_ul {
+    height: 40px;
+    background-color: #181818;
+    display: none;
+}
+.nav_son_ul_none {
+    display: block;
+}
+/* .nav_son_ul02 {
+    height: 40px;
+    background-color: #181818;
+    position: absolute;
+    z-index: 1;
+}
+.nav_son_ul03 {
+    height: 40px;
+    background-color: #181818;
+    position: absolute;
+    z-index: 4;
+} */
+.nav_son_ul_li {
+    float: left;
+    margin-right: 24px;
+    list-style: none;
+    line-height: 41px;
+}
+.nav_son_ul_li :hover {
+    color: #bf0614!important;
+}
+.nav_son_ul_li a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 13px;
+}
+.nav_son_ul :hover {
+    color: #bf0614!important;
+}
+
+/* 导航处的动画开始 */
+.online_span {
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 17px;
+    height: 8.5px;
+    background-image: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 49px 1px;
+
+}
+.online_page {
+    line-height: 38px;
+    color: #5c5c5c;
+    background-color: #fff;
+    border-right: 1px solid #999999;
+}
+.online_page_child {
+    height: 80px;
+    background-color: #fff;
+    display: none;
+}
+.online_page_li {
+    list-style: none;
+    text-align: center;
+}
+.online_page_li :hover {
+    color: #bf0614;
+}
+.online_page_li a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+/* .search_Bigbox {
+    position: absolute;
+    top: 6px;
+    left: -450px;
+    width: 490px;
+    height: 43px;
+    z-index: 11;
+
+    这个遮挡导航栏 注释
+} */
+.search_box {
+    position: absolute;
+    left: 492px;
+    width: 478px;
+    height: 39px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-left: 1px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+    /* transition: all 0.6s ease; */
+    /* overflow: hidden;   */
+}
+.search_box02 {
+    position: absolute;
+    left: 0px;
+    transition: all 0.6s ease;
+}
+.search_box_content {
+    display: flex;
+}
+.search_box_content_left {
+    width: 70px;
+}
+.search_box_content_input {
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.nav_hidden {
+    overflow: hidden;
+}
+.heatSearch_nav {
+    width: 27px;
+    height: 22px;
+    margin-top: 8px;
+    background-image: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 49px -78px;
+}
+.heatSearch_nav_txt {
+    color: #bf0614;
+    line-height: 38px;
+    font-size: 14px;
+}
+.nav_glass {
+    width: 21px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 13px;
+    background-image: url(../image/spirit/nav_icon_spirit_2022.png);
+    background-position: 79px -40px;
+}
+/* 导航处的动画结束 */
